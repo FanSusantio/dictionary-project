@@ -13,7 +13,25 @@ export default function App() {
           <Dictionary defaultKeyword="popcorn" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Fan Susantio</small>
+          <small>
+            This project was coded by{" "}
+            <a
+              href="https://www.linkedin.com/in/fan-susantio-62227919/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Fan Susantio
+            </a>{" "}
+            and is{" "}
+            <a
+              href="https://github.com/FanSusantio/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              open-sourced on Github
+            </a>
+          </small>
         </footer>
       </div>
     </div>
